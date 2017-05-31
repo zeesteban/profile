@@ -1,7 +1,7 @@
 
 
 body {
-  background-color: rgb(232, 239, 235);
+  background-color: #EDEDED;
   color: #696969;
   font-weight: 300;
   font-family: 'Open Sans', sans-serif;
@@ -13,7 +13,7 @@ h1, h2, h3{
 }
 
 h1 {
-  color: #DD5555;
+  color: #405559;
   font-size: 25px;
   font-weight: 700;
 }
@@ -44,7 +44,7 @@ table > tr > th {
 }
 
 .fa:hover{
-  color:#696969;
+  color:#405559;
 }
 
 .container {
@@ -88,3 +88,40 @@ table > tr > th {
 .padding-left-text{
   margin-left: 10px;
 }
+
+
+.img-fade {
+    animation: fadein ease-in 2s; /* Safari, Chrome and Opera > 12.1 */
+}
+
+
+@keyframes fadein {
+    from { opacity: 0 }
+    to   { opacity: 1 }
+}
+
+.poster{
+  filter: grayscale(100%)
+}
+
+.poster:hover{
+  filter: grayscale(0)
+}
+
+
+/*#walking{
+    bottom:0%;
+    position:absolute;
+    -webkit-animation:linear infinite alternate;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 18s;
+    height: 80px;
+    z-index: 1;
+}
+
+@-webkit-keyframes run {
+    0% { left: 0%;}
+    50%{ left : 100%;}
+    100%{ left: 0%;}
+}*/
+
