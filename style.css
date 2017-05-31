@@ -1,0 +1,90 @@
+
+
+body {
+  background-color: rgb(232, 239, 235);
+  color: #696969;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+h1, h2, h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #DD5555;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+p{
+  text-align: justify;
+}
+
+table > tr > th {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+
+.fa {
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.fa:hover{
+  color:blue;
+}
+
+.container {
+  width: 600px;   /* Set width */
+  margin: 0 auto; /* Automatically set left/right margins */
+}
+
+.card{
+  border-radius: 6px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  background: white;
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+}
+.etienne-img{
+  border-radius: 50%;
+}
+
+.class > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.fa-ul {
+  padding-left: 0px;
+  display: inline;
+  list-style: none;
+}
+
+.fa-ul > li {
+  display: inline;
+  padding: 30px;
+  font-size: 40px;
+}
+
+.endless-summer > p {
+  margin: 20px;
+}
+
+.padding-left-text{
+  margin-left: 10px;
+}
