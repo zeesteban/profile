@@ -39,12 +39,12 @@ table > tr > th {
 
 
 .fa {
-  color: black;
+  color: #696969;
   transition: color 0.3s ease;
 }
 
 .fa:hover{
-  color:blue;
+  color:#696969;
 }
 
 .container {
